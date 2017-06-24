@@ -1,0 +1,31 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator" Height="309" Width="279" Icon="calc.ico">
+    <Grid>
+        <TextBox x:Name="displayTextbox" HorizontalAlignment="Left" Height="49" Margin="23,22,0,0" TextWrapping="Wrap" Text="Off" VerticalAlignment="Top" Width="230"/>
+        <Button x:Name="onButton" Content="On" HorizontalAlignment="Left" Margin="56,114,0,0" VerticalAlignment="Top" Width="34" Click="FuncButton_Click" />
+        <Viewbox x:Name="buttonsbox" Margin="56,114,67,35" Stretch="Fill">
+            <Grid Height="130" Width="151">
+                <Button x:Name="oneButton" Content="1" HorizontalAlignment="Left" Margin="0,27,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="offButton" Content="Off" HorizontalAlignment="Left" Margin="39,0,0,0" VerticalAlignment="Top" Width="34" Click="FuncButton_Click" />
+                <Button x:Name="twoButton" Content="2" HorizontalAlignment="Left" Margin="39,27,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="threeButton" Content="3" HorizontalAlignment="Left" Margin="78,27,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="clearButton" Content="C" HorizontalAlignment="Left" Margin="78,0,0,0" VerticalAlignment="Top" Width="34" Click="FuncButton_Click" />
+                <Button x:Name="fourButton" Content="4" HorizontalAlignment="Left" Margin="0,54,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="fiveButton" Content="5" HorizontalAlignment="Left" Margin="39,54,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="sixButton" Content="6" HorizontalAlignment="Left" Margin="78,54,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="sevenButton" Content="7" HorizontalAlignment="Left" Margin="0,81,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="eightButton" Content="8" HorizontalAlignment="Left" Margin="39,81,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="nineButton" Content="9" HorizontalAlignment="Left" Margin="78,81,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="zeroButton" Content="0" HorizontalAlignment="Left" Margin="0,108,0,0" VerticalAlignment="Top" Width="73" Click="NumOpButton_Click" />
+                <Button x:Name="subButton" Content="-" HorizontalAlignment="Left" Margin="117,81,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="addButton" Content="+" HorizontalAlignment="Left" Margin="117,54,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="divButton" Content="/" HorizontalAlignment="Left" Margin="117,27,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="multButton" Content="*" HorizontalAlignment="Left" Margin="117,0,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click" />
+                <Button x:Name="calcButton" Content="=" HorizontalAlignment="Left" Margin="117,108,0,0" VerticalAlignment="Top" Width="34" Click="calcButton_Click"/>
+                <Button x:Name="decPointButton" Content="." HorizontalAlignment="Left" Margin="78,108,0,0" VerticalAlignment="Top" Width="34" Click="NumOpButton_Click"/>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Window>
