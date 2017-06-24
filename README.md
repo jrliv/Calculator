@@ -1,6 +1,6 @@
 # Calculator
 
-By <a href="http://www.jrliv.com" target="_blank">Jae Logan</a>
+By <a href="http://jrliv.com/about/" target="_blank">Jae Logan</a>
 
 ## Description
 
